@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.styledButton {
+  transition: border-bottom 0.2s ease-in-out;
+}
