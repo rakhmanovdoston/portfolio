@@ -6,10 +6,10 @@ export default function ContactSection() {
   return (
     <main id="contact" className="grid grid-cols-12 pt-10 min-h-96 mt-10">
       <article className="col-span-6">
-        <h3 className="text-xl font-bold text-white my-2">Let's Connect</h3>
+        <h3 className="text-xl font-bold text-white my-2">Lets Connect</h3>
         <p className="text-[#adb7be] mb-4 max-w-md">
-          I'm currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, I'll try my best
+          Im currently looking for new opportunities, my inbox is always open.
+          Whether you have a question or just want to say hi, I ll try my best
           to get back to you!
         </p>
         <div className="flex gap-4">
