@@ -33,8 +33,8 @@ export default function AboutSection() {
   };
 
   return (
-    <main id="about" className="w-full min-h-screen pt-10 items-center">
-      <section className="w-[1250px] m-auto justify-center flex gap-[300px] pt-[80px]">
+    <main id="about" className=" w-full min-h-screen pt-10 items-center">
+      <section className="sm:w-[1250px] sm:m-auto sm:justify-center sm:flex sm:gap-[300px] pt-[80px]">
         <div className="">
           <Image
             src={"/kevin-bhagat-548zkUvqmlw-unsplash.jpg"}

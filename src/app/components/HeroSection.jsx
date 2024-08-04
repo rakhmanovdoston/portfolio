@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <main
       id="/"
-      className=" w-full min-h-screen pt-[200px] grid grid-cols-1 sm:grid-cols-12 px-10"
+      className=" w-full min-h-screen pt-[200px] gap-10 grid grid-cols-1 sm:grid-cols-12 px-10"
     >
       {" "}
       <motion.article

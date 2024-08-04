@@ -43,7 +43,7 @@ const MyProjectsList = [
 
 export default function MyProjects() {
   return (
-    <main id="projects" className="w-full min-h-screen px-10">
+    <main id="projects" className="w-full min-h-screen">
       <h1 className="text-center font-bold text-4xl mb-5">My Projects</h1>
       <div className="flex gap-3 justify-center mt-[80px] mb-2">
         <button className="text-white border-slate-600 hover:border-white rounded-full border-2 px-6 py-3 text-xl cursor-pointer">
@@ -56,7 +56,7 @@ export default function MyProjects() {
           Mobile
         </button>
       </div>
-      <section className="grid grid-cols-3 space-y-5 items-center pb-5">
+      <section className="flex flex-col sm:grid sm:grid-cols-3 space-y-5 items-center pb-5">
         {MyProjectsList.map((project) => (
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}

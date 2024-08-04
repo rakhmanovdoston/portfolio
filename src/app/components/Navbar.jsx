@@ -24,7 +24,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="block py-2 pl-3 pr-4 text-[#adb7be] sm:text-xl rounded md:p-0 hover:text-white cursor-pointer">
-              Contact
+              <Link to="contact" smooth duration={500}>
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>
