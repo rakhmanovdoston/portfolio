@@ -17,7 +17,7 @@ export default function HeroSection() {
         className="sm:col-span-8"
       >
         <span className=" font-bold text-[22px] sm:font-extrabold sm:text-[90px] bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent block mb-2">
-          Hello I'm a,
+          Hello Im a,
         </span>
         <TypeAnimation
           sequence={["Doston", 1000, "Programmer", 1000, "Web-Developer", 1000]}
