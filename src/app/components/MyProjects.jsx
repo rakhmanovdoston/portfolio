@@ -41,6 +41,13 @@ const MyProjectsList = [
     img: "/image.png",
     type: "web",
   },
+  {
+    id: 6,
+    title: "Countries Site",
+    link: "https://countries-site-sandy.vercel.app/",
+    img: "/countries.png",
+    type: "web",
+  },
 ];
 
 export default function MyProjects() {
